@@ -240,8 +240,10 @@ if (scoreJohn > mikesScore && scoreJohn > maryScore) {
   console.log("John's Team winns with " + scoreJohn + ' points');
 } else if (mikesScore > scoreJohn && mikesScore > maryScore) {
   console.log('Mikes team win with ' + mikesScore + ' score');
-}else (){
-    
+} else if (maryScore > scoreJohn && maryScore > mikesScore) {
+  console.log("Mary's team won with " + maryScore + ' poinnts ');
+} else {
+  console.log('there was a draw');
 }
 // if (scoreJohn > mikesScore) {
 //   console.log("John's is the winner with " + scoreJohn + ' points ');
